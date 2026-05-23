@@ -3,4 +3,4 @@
 .DEFAULT_GOAL := install
 
 install:
-	ansible-playbook main.yml -b -K
+	sudo ansible-playbook main.yml
