@@ -10,6 +10,7 @@ common_packages:
 - name: lsb-release
 - name: git
 - name: make
+- name: ansible
 - name: nano
 - name: vim
 - name: tree
@@ -17,12 +18,6 @@ common_packages:
 - name: python3-full
 - name: python3-pip
 - name: python3-virtualenv
-- name: nodejs
-- name: npm
-- name: zsh
 - name: tmux
-- name: bat
-- name: fzf
 - name: jq
-- name: eza
-- name: plocate
+- name: yq
