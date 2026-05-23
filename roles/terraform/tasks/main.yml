@@ -27,7 +27,7 @@
 
 - name: Add terraform apt repository
   ansible.builtin.apt_repository:
-    repo: 'deb [signed-by=/etc/apt/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com noble main'
+    repo: 'deb [signed-by=/etc/apt/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com resolute main'
     state: present
 
 - name: Update apt and install terraform cli
