@@ -1,7 +1,7 @@
 ---
 - name: Download K9s .deb
   ansible.builtin.get_url:
-    url: https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_linux_amd64.deb
+    url: https://github.com/derailed/k9s/releases/latest/download/k9s_linux_amd64.deb
     dest: /tmp/k9s_linux_amd64.deb
 
 - name: Install K9s
