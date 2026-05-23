@@ -15,7 +15,7 @@
 
 - name: Add terraform GPG key to apt keyring
   ansible.builtin.command:
-    cmd: sudo gpg --dearmor -o /etc/apt/keyrings/hashicorp-archive-keyring.gpg /tmp/hashicorp-archive-keyring.gpg
+    cmd: gpg --dearmor -o /etc/apt/keyrings/hashicorp-archive-keyring.gpg /tmp/hashicorp-archive-keyring.gpg
     creates: /etc/apt/keyrings/hashicorp-archive-keyring.gpg
   when: gpg_key_check.rc != 0
 

@@ -1,0 +1,13 @@
+---
+# Docker role default variables
+
+docker_packages:
+  - docker-ce
+  - docker-compose-plugin
+
+docker_keyring_dir: /etc/apt/keyrings
+docker_gpg_key_url: https://download.docker.com/linux/ubuntu/gpg
+docker_keyring_path: /etc/apt/keyrings/docker.gpg
+docker_repo_filename: docker
+docker_service_name: docker
+docker_user: "enzo"
