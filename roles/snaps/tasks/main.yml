@@ -1,0 +1,10 @@
+---
+- name: Install VSCode
+  community.general.snap:
+    name: code
+    classic: true
+
+- name: Install UV
+  community.general.snap:
+    name: astral-uv
+    classic: true
