@@ -1,18 +1,15 @@
 ---
 - name: Set up development environment
   hosts: local
-  connection: local
   gather_facts: false
   become: true
   roles:
-    - common
-    - bashrc
     - gitconfig
-    - helm
-    - terraform
-    - gh
-    - glab
-    - uv
+    - common
+    - snaps
     - kubectl
     - k9s
+    - helm
+    - terraform
     - argocd
+    - bashrc
