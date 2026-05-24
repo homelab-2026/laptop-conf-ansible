@@ -13,3 +13,7 @@
   community.general.snap:
     name: astral-uv
     classic: true
+
+- name: Install Discord
+  community.general.snap:
+    name: discord
