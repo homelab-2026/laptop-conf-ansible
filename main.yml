@@ -13,4 +13,5 @@
     - terraform
     - argocd
     - bashrc
+    - tmux
     - docker

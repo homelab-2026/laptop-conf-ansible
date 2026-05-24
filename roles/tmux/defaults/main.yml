@@ -1,0 +1,3 @@
+tmux_target_user: "enzo"
+tmux_user_home: "/home/{{ tmux_target_user }}"
+tmux_history_limit: 10000

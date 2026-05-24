@@ -1,0 +1,8 @@
+---
+- name: Deploy tmux configuration
+  ansible.builtin.template:
+    src: tmux.conf.j2
+    dest: "{{ tmux_user_home }}/.tmux.conf"
+    owner: "{{ tmux_target_user }}"
+    group: "{{ tmux_target_user }}"
+    mode: '0644'

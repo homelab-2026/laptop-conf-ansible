@@ -1,0 +1,9 @@
+# tmux configuration
+# Enable mouse support for pane selection, resizing, and scrolling
+set -g mouse on
+
+# Increase scrollback history
+set -g history-limit {{ tmux_history_limit }}
+
+# Use vi keys in copy mode
+setw -g mode-keys vi
